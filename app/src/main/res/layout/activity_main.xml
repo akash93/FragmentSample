@@ -11,7 +11,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.75"
         android:id="@+id/color_chooser_fragment"
         android:name="gymkhana.iitb.ac.in.fragmentexample.ColorChooserFragment"
         tools:layout="@layout/fragment_color_chooser"
@@ -19,7 +19,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:id="@+id/text_fragment"
         android:name="gymkhana.iitb.ac.in.fragmentexample.TextFragment"
         tools:layout="@layout/fragment_text" />
