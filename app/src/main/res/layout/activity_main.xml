@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/fragment_container">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/color_chooser_fragment"
+        android:name="gymkhana.iitb.ac.in.fragmentexample.ColorChooserFragment"
+        tools:layout="@layout/fragment_color_chooser"
+        />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/text_fragment"
+        android:name="gymkhana.iitb.ac.in.fragmentexample.TextFragment"
+        tools:layout="@layout/fragment_text" />
+
+
+</LinearLayout>
