@@ -18,8 +18,6 @@ public class TextFragment extends Fragment {
 
     private static final String TAG = TextFragment.class.getSimpleName();
 
-
-
     private TextView textView;
 
     public TextFragment() {
@@ -36,6 +34,9 @@ public class TextFragment extends Fragment {
         return rootView;
     }
 
+    /**
+     * Set the text color of the textViews
+     */
     public void changeTextColor(int red,int green,int blue){
         Log.i(TAG, "changeTextColor called with color:" + red+","+green+","+blue);
         textView.setTextColor(Color.rgb(red,green,blue));
