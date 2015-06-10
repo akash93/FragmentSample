@@ -10,7 +10,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/padding_regular">
         <TextView
-            android:text="Red"
+            android:text="@string/label_red"
             android:textColor="@color/red"
             style="@style/TextViewStyle"/>
         <SeekBar
@@ -33,7 +33,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/padding_regular">
         <TextView
-            android:text="Green"
+            android:text="@string/label_green"
             android:textColor="@color/green"
             style="@style/TextViewStyle"/>
         <SeekBar
@@ -56,7 +56,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/padding_regular">
         <TextView
-            android:text="Blue"
+            android:text="@string/label_blue"
             android:textColor="@color/blue"
             style="@style/TextViewStyle"/>
         <SeekBar
